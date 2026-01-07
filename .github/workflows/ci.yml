@@ -32,13 +32,13 @@ jobs:
         run: npm install -g @railway/cli
 
       # 🔥 서비스 리스트 출력!
-      - name: List Available Services
-        run: |
-          echo "======================================"
-          echo "🔍 Available Railway Services:"
-          echo "======================================"
-          railway service list
-          echo "======================================"
+      # - name: List Available Services
+      #   run: |
+      #     echo "======================================"
+      #     echo "🔍 Available Railway Services:"
+      #     echo "======================================"
+      #     railway service list
+      #     echo "======================================"
 
       - name: Deploy to Railway
         run: railway up --service=echo2
