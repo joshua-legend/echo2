@@ -9,4 +9,8 @@ export class AppService {
     console.log('test');
     return 'test';
   }
+
+  getHelloBanana(): string {
+    return 'Hello Banana!';
+  }
 }

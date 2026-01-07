@@ -14,4 +14,18 @@ export class AppController {
   getTest(): string {
     return this.appService.getTest();
   }
+
+  @Get('banana')
+  getBanana(): string {
+    return this.appService.getHelloBanana();
+  }
+
+  @Get('health')
+  getHealth() {
+    return {
+      status: 'ok',
+      uptime: process.uptime(),
+      memory: process.memoryUsage(),
+    };
+  }
 }
