@@ -20,6 +20,11 @@ export class AppController {
     return this.appService.getHelloBanana();
   }
 
+  @Get('dubai')
+  getDubai(): string {
+    return this.appService.getHelloDubai();
+  }
+
   @Get('health')
   getHealth() {
     return {

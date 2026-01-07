@@ -13,4 +13,8 @@ export class AppService {
   getHelloBanana(): string {
     return '동킹콩 Banana!!!!!!!!!!';
   }
+
+  getHelloDubai(): string {
+    return '두쫀쿠';
+  }
 }
