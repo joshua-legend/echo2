@@ -11,6 +11,6 @@ export class AppService {
   }
 
   getHelloBanana(): string {
-    return 'Hello Banana!!!';
+    return '동킹콩 Banana!!!!!!!!!!';
   }
 }
