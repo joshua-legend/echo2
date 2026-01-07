@@ -41,7 +41,7 @@ jobs:
           echo "======================================"
 
       - name: Deploy to Railway
-        run: railway up --service=cicd
+        run: railway up --service=echo2
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
 
